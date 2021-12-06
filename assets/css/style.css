@@ -1,0 +1,52 @@
+.circular--square {
+    border-radius: 50%;
+}
+
+.circular--square {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
+
+.white {
+    color: white;
+}
+
+.circular--light {
+    border-radius: 20%;
+}
+
+.circular--light {
+    border-top-left-radius: 20% 20%;
+    border-top-right-radius: 20% 20%;
+    border-bottom-right-radius: 20% 20%;
+    border-bottom-left-radius: 20% 20%;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 250px; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+a {
+    color: #007bff;
+}
+
+.last-part {
+    background-color: #eef2f7!important;
+}
