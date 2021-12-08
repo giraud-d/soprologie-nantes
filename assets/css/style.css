@@ -9,10 +9,6 @@
     border-bottom-left-radius: 50% 50%;
 }
 
-.white {
-    color: white;
-}
-
 .circular--light {
     border-radius: 20%;
 }
@@ -26,6 +22,22 @@
 
 a {
     text-decoration: underline;
+}
+
+.white {
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+a {
+    color: #007bff;
+}
+
+.last-part {
+    background-color: #eef2f7!important;
 }
 
 .google-maps {
@@ -43,10 +55,12 @@ a {
     height: 100% !important;
 }
 
-a {
-    color: #007bff;
+/* Override */
+
+.story-content p {
+    margin-bottom: 20px;
 }
 
-.last-part {
-    background-color: #eef2f7!important;
+.section-shorter-padding {
+    padding-top: 100px;
 }
