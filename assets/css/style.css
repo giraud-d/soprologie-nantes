@@ -64,3 +64,19 @@ a {
 .section-shorter-padding {
     padding-top: 100px;
 }
+
+.video-area p, h2, i {
+    color: darkblue !important;
+}
+
+.titre h1 {
+    font-style: italic;
+    font-size: 2em;
+}
+
+.titre h2 span {
+    color: black !important;
+}
+.story-content h1 span {
+    color: #7ca2f0 !important;
+}
