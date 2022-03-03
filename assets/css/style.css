@@ -71,7 +71,7 @@ a {
 
 .titre h1 {
     font-style: italic;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 .titre h2 span {
@@ -79,4 +79,8 @@ a {
 }
 .story-content h1 span {
     color: #7ca2f0 !important;
+}
+
+.story-content h2 span {
+    color: #8caef2 !important;
 }
